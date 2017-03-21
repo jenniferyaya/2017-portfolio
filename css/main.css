@@ -1,0 +1,174 @@
+/* default styles */
+
+ul {
+  list-style-type: none;
+}
+
+a, a:active {
+  text-decoration: none;
+  color: #000;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.list-group--inline > li {
+  display: inline-block;
+}
+
+.list-group {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.link, .link:hover {
+  text-decoration: none;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+a:hover {
+  outline: none;
+  color: #ded0d2;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+/* spacing */
+
+.header-wrapper {
+  padding-left: 10.4rem;
+  padding-right: 10.4rem;
+  padding-top: 2.6rem;
+}
+
+.main-container {
+  padding-left: 10.4rem;
+  padding-right: 10.4rem;
+  margin-top: 7.8rem;
+}
+
+.portrait-container {
+  padding-left: 10.4rem;
+  padding-right: 10.4rem;
+  margin-top: 10.4rem;
+}
+
+.hello-container {
+  padding-left: 10.4rem;
+  padding-right: 10.4rem;
+}
+
+.footer-container {
+  padding-left: 10.4rem;
+  padding-right: 10.4rem;
+  margin-top: 3.9rem;
+  margin-bottom: 1.3rem;
+}
+
+.content-container {
+  margin-top: 11.7rem;
+}
+
+.work-text {
+  width: 35%;
+  padding-left: 52em;
+  margin-top: 6.5rem;
+}
+
+.work-imgs {
+  padding-left: 10.4rem;
+  padding-right: 10.4rem;
+}
+
+.gutter {
+  padding-left: 1.3000rem;
+  padding-right: 1.3000rem;
+}
+
+.push-double, .push-2 {
+  margin-bottom: 3.0000rem;
+}
+
+.push-8 {
+  margin-bottom: 10.4000rem;
+}
+
+.pad-top, .pad-t {
+  padding-top: 2.6rem;
+}
+
+.pad-top-1-4, .pad-t-1-4 {
+  padding-top: 0.3250rem;
+}
+
+.margin-0 {
+  margin: 0;
+}
+
+.push-b-0 {
+  margin-bottom: 0;
+}
+
+
+/* typography */
+
+.mega {
+  font-size: 1.2500rem;
+  line-height: 1.7500rem;
+}
+
+.milli {
+  font-size: 0.7502rem;
+  line-height: 1.1250rem;
+}
+
+h6, .kilo, input, textarea {
+  font-size: 1.0000rem;
+  line-height: 1.4000rem;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.light {
+  font-weight: lighter;
+}
+
+.sans {
+  font-family: 'Lato', sans-serif;
+}
+
+.serif {
+  font-family: 'Prata', serif;
+}
+
+.center {
+  text-align: center;
+}
+
+/* colour */
+
+.blk {
+  color: #000;
+}
+
+.grey {
+  color: #bebebe;
+}
+
+.pink {
+  color: #ded0d2;
+}
