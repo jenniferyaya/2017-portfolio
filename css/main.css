@@ -56,6 +56,8 @@ a:hover {
   padding-left: 10.4rem;
   padding-right: 10.4rem;
   padding-top: 2.6rem;
+  max-width: 2rem;
+  max-height: 99px;
 }
 
 .main-container {
@@ -84,6 +86,10 @@ a:hover {
 
 .content-container {
   margin-top: 11.7rem;
+}
+
+.nav-container {
+  margin-bottom: 2.6rem;
 }
 
 .work-text {
@@ -184,7 +190,7 @@ h6, .kilo, input, textarea {
 @media only screen and (min-width: 20em) {
 
   html {
-    font-size: 90%;
+    font-size: 120%;
     line-height: 1.5;
   }
 
@@ -422,6 +428,5 @@ h6, .kilo, input, textarea {
   .push-b-0 {
     margin-bottom: 0;
   }
-
 
 }
