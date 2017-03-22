@@ -45,6 +45,11 @@ a:hover {
   width: 100%;
 }
 
+.img-flex-1-2 {
+  display: block;
+  width: 40%;
+}
+
 /* spacing */
 
 .header-wrapper {
@@ -171,4 +176,252 @@ h6, .kilo, input, textarea {
 
 .pink {
   color: #ded0d2;
+}
+
+
+/* responsive */
+
+@media only screen and (min-width: 20em) {
+
+  html {
+    font-size: 90%;
+    line-height: 1.5;
+  }
+
+  .header-wrapper {
+    padding-left: 2.6rem;
+    padding-right: 2.6rem;
+  }
+
+  .footer-container {
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+  }
+
+  .gutter {
+    padding-left: 0rem;
+    padding-right: .375rem;
+  }
+
+  h1 {
+    margin-bottom: 0;
+  }
+
+  .nav-container {
+    float: left;
+  }
+
+  .main-container {
+    padding-left: 2.6rem;
+    padding-right: 0;
+  }
+
+  .push-8 {
+    margin-bottom: 3.9rem;
+  }
+
+  .work-text {
+    max-width: 90%;
+    width: 100%;
+    padding-left: 1.3rem;
+    margin-top: 1.3rem;
+  }
+
+  .work-imgs {
+    width: 100vw;
+    min-width: 100vw;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+
+  .content-container {
+      margin-top: 10.4rem;
+  }
+
+  .img-flex-1-2 {
+    width: 100%;
+    display: block;
+  }
+
+  .portrait-container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .hello-container {
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+  }
+
+}
+
+@media only screen and (min-width: 25em) {
+
+  html {
+    font-size: 100%;
+    line-height: 1.5;
+  }
+
+}
+
+@media only screen and (min-width: 27em) {
+
+
+
+}
+
+
+@media only screen and (min-width: 28em) {
+
+
+
+
+}
+
+@media only screen and (min-width: 30em) {
+
+
+
+
+}
+
+@media only screen and (min-width: 33em) {
+
+
+
+
+}
+
+@media only screen and (min-width: 34em) {
+
+
+
+}
+
+@media only screen and (min-width: 35em) {
+
+
+}
+
+@media only screen and (min-width: 36em) {
+
+
+  .nav-container {
+    padding-right: 9.1rem;
+  }
+
+  .gutter {
+    padding-right: .75rem;
+  }
+
+}
+
+@media only screen and (min-width: 47em) {
+
+
+  .nav-container {
+    padding-right: 10.4rem;
+  }
+}
+
+@media only screen and (min-width: 48em) {
+
+
+  .nav-container {
+    padding-right: 11.7rem;
+  }
+}
+
+@media only screen and (min-width: 49em) {
+
+  html {
+    font-size: 105%;
+    line-height: 1.5;
+  }
+
+}
+
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 100%;
+    line-height: 1.5;
+  }
+
+  .header-wrapper {
+    padding-left: 10.4rem;
+    padding-right: 10.4rem;
+    padding-top: 2.6rem;
+  }
+
+  .main-container {
+    padding-left: 10.4rem;
+    padding-right: 10.4rem;
+    margin-top: 7.8rem;
+  }
+
+  .portrait-container {
+    padding-left: 10.4rem;
+    padding-right: 10.4rem;
+    margin-top: 10.4rem;
+  }
+
+  .hello-container {
+    padding-left: 10.4rem;
+    padding-right: 10.4rem;
+  }
+
+  .footer-container {
+    padding-left: 10.4rem;
+    padding-right: 10.4rem;
+    margin-top: 3.9rem;
+    margin-bottom: 1.3rem;
+  }
+
+  .content-container {
+    margin-top: 11.7rem;
+  }
+
+  .work-text {
+    width: 35%;
+    padding-left: 46em;
+    margin-top: 6.5rem;
+  }
+
+  .work-imgs {
+    padding-left: 0;
+    padding-right: 10.4rem;
+  }
+
+  .gutter {
+    padding-left: 1.3000rem;
+    padding-right: 1.3000rem;
+  }
+
+  .push-double, .push-2 {
+    margin-bottom: 3.0000rem;
+  }
+
+  .push-8 {
+    margin-bottom: 10.4000rem;
+  }
+
+  .pad-top, .pad-t {
+    padding-top: 2.6rem;
+  }
+
+  .pad-top-1-4, .pad-t-1-4 {
+    padding-top: 0.3250rem;
+  }
+
+  .margin-0 {
+    margin: 0;
+  }
+
+  .push-b-0 {
+    margin-bottom: 0;
+  }
+
+
 }
