@@ -193,6 +193,37 @@ h6, .kilo, input, textarea {
 }
 
 
+.wrapper-right {
+  margin-top: 9.1rem;
+  box-sizing: border-box;
+  padding: 5.4rem;
+  padding-bottom: 25vh;
+  max-width: 50vw;
+}
+
+
+.wrapper-left {
+  margin-top: 1.3rem;
+  box-sizing: border-box;
+  padding: 5.4rem;
+  padding-bottom: 25vh;
+}
+
+.push-d {
+  margin-bottom: 1.3rem;
+}
+
+.push-d-2 {
+  margin-bottom: 5.4rem;
+}
+
+.column {
+  float: left;
+}
+
+
+
+
 /* responsive */
 
 @media only screen and (min-width: 20em) {
@@ -252,10 +283,6 @@ h6, .kilo, input, textarea {
       margin-top: 10.4rem;
   }
 
-  .img-flex-1-2 {
-    width: 100%;
-    display: block;
-  }
 
   .portrait-container {
     padding-left: 0;
