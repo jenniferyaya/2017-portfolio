@@ -58,6 +58,10 @@ a:hover {
   width: 40%;
 }
 
+h3 {
+  max-width: 10%;
+}
+
 /* spacing */
 
 .header-wrapper {
