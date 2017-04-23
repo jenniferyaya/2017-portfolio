@@ -218,3 +218,9 @@ footer {
 .work-nav {
   margin-top: 2.6rem;
 }
+
+
+.img-flex-1-2 {
+  display: block;
+  width: 50%;
+}
