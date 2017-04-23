@@ -2,6 +2,8 @@
 body {
   min-width: 320px;
   letter-spacing: 0.01em;
+  padding: 2vh 1.5vw;
+  margin: 0;
 }
 
 html, body {
@@ -17,14 +19,11 @@ a, a:active {
   color: #000;
 }
 
-html, body {
-  margin: 0;
+html {
   padding: 0;
+  margin: 0;
 }
 
-.list-group--inline > li {
-  display: inline-block;
-}
 
 .list-group {
   padding-left: 0;
@@ -43,9 +42,14 @@ html, body {
   float: right;
 }
 
+h1 a:hover {
+  outline: none;
+  text-decoration: none;
+}
+
 a:hover {
   outline: none;
-  color: #ded0d2;
+  text-decoration: underline;
 }
 
 .img-flex {
@@ -53,14 +57,10 @@ a:hover {
   width: 100%;
 }
 
-.img-flex-1-2 {
-  display: block;
-  width: 40%;
+h2 a {
+  left: 50%;
 }
 
-.h3 {
-  max-width: 65%;
-}
 
 /* spacing */
 
@@ -81,7 +81,7 @@ a:hover {
 .portrait-container {
   padding-left: 10.4rem;
   padding-right: 10.4rem;
-  margin-top: 10.4rem;
+  margin-top: 1.3rem;
 }
 
 .hello-container {
@@ -103,6 +103,7 @@ a:hover {
 .nav-container {
   margin-bottom: 2.6rem;
 }
+
 
 .work-text {
   width: 35%;
@@ -129,7 +130,7 @@ a:hover {
 }
 
 .pad-top, .pad-t {
-  padding-top: 2.6rem;
+  padding-top: 1.3rem;
 }
 
 .pad-top-1-4, .pad-t-1-4 {
@@ -161,6 +162,10 @@ h6, .kilo, input, textarea {
   line-height: 1.4000rem;
 }
 
+.grey {
+  color: #262626;
+}
+
 .bold {
   font-weight: bold;
 }
@@ -169,302 +174,47 @@ h6, .kilo, input, textarea {
   font-weight: lighter;
 }
 
+.italic {
+  font-style: italic;
+}
+
 .sans {
   font-family: 'Lato', sans-serif;
 }
 
-.serif {
-  font-family: 'Prata', serif;
+h1 {
+  margin: 0;
 }
 
-.center {
-  text-align: center;
+h2 a {
+  margin-right: 1.3rem;
 }
 
-/* colour */
-
-.blk {
-  color: #000;
+.unit {
+  width: 100vw;
 }
 
-.grey {
-  color: #bebebe;
-}
-
-.pink {
-  color: #ded0d2;
-}
-
-
-.wrapper-right {
-  margin-top: 9.1rem;
-  box-sizing: border-box;
-  padding: 5.4rem;
-  padding-bottom: 25vh;
-  max-width: 50vw;
-}
-
-
-.wrapper-left {
-  margin-top: 1.3rem;
-  box-sizing: border-box;
-  padding: 5.4rem;
-  padding-bottom: 25vh;
-}
-
-.push-d {
+#header-wrapper {
   margin-bottom: 1.3rem;
 }
 
-.push-d-2 {
-  margin-bottom: 5.4rem;
+p {
+  margin: 0;
 }
 
-.column {
-  float: left;
+.grey-2 a {
+  color: #857C7E;
 }
 
-
-
-
-/* responsive */
-
-@media only screen and (min-width: 20em) {
-
-  html {
-    font-size: 120%;
-    line-height: 1.5;
-  }
-
-  .header-wrapper {
-    padding-left: 2.6rem;
-    padding-right: 2.6rem;
-  }
-
-  .footer-container {
-    padding-left: 1.3rem;
-    padding-right: 1.3rem;
-  }
-
-  .gutter {
-    padding-left: 0rem;
-    padding-right: .375rem;
-  }
-
-  h1 {
-    margin-bottom: 0;
-  }
-
-  .nav-container {
-    float: left;
-  }
-
-  .main-container {
-    padding-left: 2.6rem;
-    padding-right: 0;
-  }
-
-  .push-8 {
-    margin-bottom: 3.9rem;
-  }
-
-  .work-text {
-    max-width: 90%;
-    width: 100%;
-    padding-left: 1.3rem;
-    margin-top: 1.3rem;
-  }
-
-  .work-imgs {
-    width: 100vw;
-    min-width: 100vw;
-    padding-left: 0.75rem;
-    padding-right: 0.75rem;
-  }
-
-  .content-container {
-      margin-top: 10.4rem;
-  }
-
-
-  .portrait-container {
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  .hello-container {
-    padding-left: 1.3rem;
-    padding-right: 1.3rem;
-  }
-
+.about-pg {
+  background-color: #f5f0f1;
 }
 
-@media only screen and (min-width: 25em) {
-
-  html {
-    font-size: 100%;
-    line-height: 1.5;
-  }
-
+footer {
+  margin-top: 10.4rem;
+  margin-bottom: 1.3rem;
 }
 
-@media only screen and (min-width: 27em) {
-
-
-
-}
-
-
-@media only screen and (min-width: 28em) {
-
-
-
-
-}
-
-@media only screen and (min-width: 30em) {
-
-
-
-
-}
-
-@media only screen and (min-width: 33em) {
-
-
-
-
-}
-
-@media only screen and (min-width: 34em) {
-
-
-
-}
-
-@media only screen and (min-width: 35em) {
-
-
-}
-
-@media only screen and (min-width: 36em) {
-
-
-  .nav-container {
-    padding-right: 9.1rem;
-  }
-
-  .gutter {
-    padding-right: .75rem;
-  }
-
-}
-
-@media only screen and (min-width: 47em) {
-
-
-  .nav-container {
-    padding-right: 10.4rem;
-  }
-}
-
-@media only screen and (min-width: 48em) {
-
-
-  .nav-container {
-    padding-right: 11.7rem;
-  }
-}
-
-@media only screen and (min-width: 49em) {
-
-  html {
-    font-size: 105%;
-    line-height: 1.5;
-  }
-
-}
-
-
-@media only screen and (min-width: 60em) {
-
-  html {
-    font-size: 100%;
-    line-height: 1.5;
-  }
-
-  .header-wrapper {
-    padding-left: 10.4rem;
-    padding-right: 10.4rem;
-    padding-top: 2.6rem;
-  }
-
-  .main-container {
-    padding-left: 10.4rem;
-    padding-right: 10.4rem;
-    margin-top: 7.8rem;
-  }
-
-  .portrait-container {
-    padding-left: 10.4rem;
-    padding-right: 10.4rem;
-    margin-top: 10.4rem;
-  }
-
-  .hello-container {
-    padding-left: 10.4rem;
-    padding-right: 10.4rem;
-  }
-
-  .footer-container {
-    padding-left: 10.4rem;
-    padding-right: 10.4rem;
-    margin-top: 3.9rem;
-    margin-bottom: 1.3rem;
-  }
-
-  .content-container {
-    margin-top: 11.7rem;
-  }
-
-  .work-text {
-    width: 35%;
-    padding-left: 46em;
-    margin-top: 6.5rem;
-  }
-
-  .work-imgs {
-    padding-left: 0;
-    padding-right: 10.4rem;
-  }
-
-  .gutter {
-    padding-left: 1.3000rem;
-    padding-right: 1.3000rem;
-  }
-
-  .push-double, .push-2 {
-    margin-bottom: 3.0000rem;
-  }
-
-  .push-8 {
-    margin-bottom: 10.4000rem;
-  }
-
-  .pad-top, .pad-t {
-    padding-top: 2.6rem;
-  }
-
-  .pad-top-1-4, .pad-t-1-4 {
-    padding-top: 0.3250rem;
-  }
-
-  .margin-0 {
-    margin: 0;
-  }
-
-  .push-b-0 {
-    margin-bottom: 0;
-  }
-
+.work-nav {
+  margin-top: 2.6rem;
 }
