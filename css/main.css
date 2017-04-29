@@ -74,6 +74,10 @@ h6, .kilo, input, textarea {
   font-style: italic;
 }
 
+.light {
+  font-weight: 300;
+}
+
 .sans {
   font-family: 'Lato', sans-serif;
 }
