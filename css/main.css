@@ -37,6 +37,14 @@ html, body {
   margin-left: 20vw;
 }
 
+.photo-column {
+  width: 500vw;
+  height: 500vh;
+  margin-top: 10.4rem;
+  position: absolute;
+  margin-left: 20vw;
+}
+
 .elements {
   position: relative;
   padding-right: 1.3rem
@@ -225,6 +233,9 @@ h2 a {
   padding-top: 0.3250rem;
 }
 
+.push-down {
+  padding-top: 11.3rem;
+}
 
 @media only screen and (min-width: 17em) {
 
