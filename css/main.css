@@ -1,17 +1,9 @@
-/* default styles */
+/* GLOBAL */
 
-ul {
-  list-style-type: none;
-}
-
-a, a:active {
-  text-decoration: none;
-  color: #000;
-}
-
-html {
+#site {
   padding: 0;
   margin: 0;
+  background-color: #ded0d2;
 }
 
 body {
@@ -22,42 +14,49 @@ body {
   word-wrap: break-word;
   overflow-y: scroll;
   overflow-x: hidden;
-  background-color: rgba(242, 242, 242, 0.25);
 }
 
 html, body {
   height: 100%;
 }
 
-.work-column {
-  width: 1105vw;
-  height: 165vh;
-  margin-top: 10.4rem;
-  position: absolute;
-  margin-left: 20vw;
+ul {
+  list-style-type: none;
 }
 
-.photo-column {
-  width: 500vw;
-  height: 500vh;
-  margin-top: 10.4rem;
-  position: absolute;
-  margin-left: 20vw;
+a, a:active {
+  text-decoration: none;
+  color: #000;
 }
 
-.elements {
-  position: relative;
-  padding-right: 1.3rem
-
+a:hover {
+  outline: none;
+  text-decoration: underline;
 }
 
-.s-media {
+.margin-0, p {
+  margin: 0;
+}
+
+.margin-b0 {
+  margin-bottom: 0;
+}
+
+.margin-t0 {
+  margin-top: 0;
+}
+
+.img-flex {
+  width: 100%;
   display: block;
-  position: absolute;
-  top: 840px;
+}
+
+.centre {
+  text-align: center;
 }
 
 
+/* TYPOGRAPHY STYLES*/
 .mega {
   font-size: 1.2500rem;
   line-height: 1.7500rem;
@@ -94,202 +93,82 @@ h6, .kilo, input, textarea {
   font-family: 'Gentium Book Basic', serif;'
 }
 
-h1 {
-  margin: 0;
-}
 
-h2 a {
-  margin-right: 1.3rem;
-}
-
-
-p {
-  margin: 0;
-}
-
-.grey-2 a {
-  color: #857C7E;
-}
-
-
-footer {
-  margin-top: 10.4rem;
-  margin-bottom: 1.3rem;
-}
-
-
-.gutter-right {
-  padding-right: 3.6rem;
-}
-
-
-.img-flex {
-  display: block;
-  width: 100%;
-}
-
-.unit-select {
-  width: 65vw;
-}
-
-.unit {
-  width: 30vw;
-}
-
-h1 a:hover {
-  outline: none;
-  text-decoration: none;
-}
-
-a:hover {
-  outline: none;
-  text-decoration: underline;
-}
-
-.centre {
-  text-align: center;
-}
-
+/* HEADER */
 .logo {
   padding-top: 2.6rem;
-  position: fixed;
   z-index: 10;
   display: inline-block;
-  vertical-align: baseline;
-  text-align: center;
-}
-
-.navigation-bottom {
-  z-index: 9;
-  bottom: 5vh;
   position: fixed;
+  padding-right: 12rem;
+  z-index: 10;
 }
 
-.navigation-top {
+.navigation-column {
   z-index: 9;
-  bottom: 83vh;
+  top: 12vh;
   position: fixed;
   display: block;
   width: 50px;
 }
 
-.push-7 {
-  margin-bottom: 5.2rem;
+/* CONTENT*/
+
+.index-items {
+  padding-top: 2.6rem;
+  vertical-align: baseline;
+  position: fixed;
+  top: 20vh;
 }
 
-.margin-0 {
-  margin: 0;
+.index ul {
+  padding-left: 0;
 }
 
-.work-info {
+.index-image {
+  padding-left: 20vw;
+  max-width: 60vw;
+  padding-top: 24vh;
+}
+
+.caption {
   margin-bottom: 1.3rem;
   padding-top: .65rem;
 }
 
-.work-info-page {
-  padding-top: 2.6rem;
-  width: 65vw;
-  text-align: center;
-}
-
-
-#header {
-  width: 90px;
-}
-
-
-.left {
-  float: left;
-}
-
-.right {
-  float: right;
-}
-
-.hello {
-  margin-left: 11.7rem;
-}
-
-h2 a {
-  left: 50%;
-}
-
-.hello-container {
-  padding-left: 10.4rem;
-  padding-right: 10.4rem;
-  width: 50%;
-}
-
-.portrait-container {
-  margin-top: 6.5rem;
-}
-
-
-.pad-top, .pad-t {
-  padding-top: 1.3rem;
-}
-
-.pad-top-1-4, .pad-t-1-4 {
-  padding-top: 0.3250rem;
-}
-
-.push-down {
-  padding-top: 11.3rem;
-}
-
-@media only screen and (min-width: 17em) {
-
-    html {
-      font-size: 110%;
-      }
-    }
-
-  .img-flex-1-2 {
-    width: 100vw;
-  }
-
-  .portrait-container {
-    margin-top: 6.5rem;
-    padding-left: 1.3rem;
-  }
-
-}
-
-@media only screen and (min-width: 38em) {
-
-.img-flex-1-2 {
-  width: 70vw;
-  display: block;
-  }
-
-}
-
-@media only screen and (min-width: 51em) {
-
-.img-flex-1-2 {
-  width: 65vw;
-  display: block;
-  }
-
-}
-
-
-@media only screen and (min-width: 55em) {
-
-.img-flex-1-2 {
+.content-column {
   width: 50vw;
-  display: block;
-  }
+  height: 45vh;
+  margin-top: 10.4rem;
+  position: absolute;
+  margin-left: 20vw;
+}
+
+.push-b7 {
+  margin-bottom: 5.2rem;
+}
+
+.content {
+  position: relative;
+  padding-right: 1.3rem
 
 }
 
 
 
-@media only screen and (min-width: 66em) {
 
-.img-flex-1-2 {
-  width: 35vw;
-  display: block;
-  }
 
+/* ABOUT */
+.info {
+  margin-top: 2.6rem;
+  max-width: 34vw;
+}
+
+
+/* PHOTOGRAPHY*/
+
+.image {
+  width: 45vw;
+  margin-top: 5.9rem;
+  margin-left: 20vw;
 }
