@@ -1,24 +1,4 @@
-/* GLOBAL */
-
-#site {
-  padding: 0;
-  margin: 0;
-  background-color: #ded0d2;
-}
-
-body {
-  min-width: 320px;
-  letter-spacing: 0.04em;
-  padding: 2vh 3.5vw;
-  margin: 0;
-  word-wrap: break-word;
-  overflow-y: scroll;
-  overflow-x: hidden;
-}
-
-html, body {
-  height: 100%;
-}
+/* default styles */
 
 ul {
   list-style-type: none;
@@ -29,34 +9,55 @@ a, a:active {
   color: #000;
 }
 
-a:hover {
-  outline: none;
-  text-decoration: underline;
-}
-
-.margin-0, p {
+html {
+  padding: 0;
   margin: 0;
 }
 
-.margin-b0 {
-  margin-bottom: 0;
+body {
+  min-width: 320px;
+  letter-spacing: 0.04em;
+  padding: 2vh 3.5vw;
+  margin: 0;
+  word-wrap: break-word;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background-color: rgba(242, 242, 242, 0.25);
 }
 
-.margin-t0 {
-  margin-top: 0;
+html, body {
+  height: 100%;
 }
 
-.img-flex {
-  width: 100%;
+.work-column {
+  width: 1105vw;
+  height: 165vh;
+  margin-top: 10.4rem;
+  position: absolute;
+  margin-left: 20vw;
+}
+
+.photo-column {
+  width: 500vw;
+  height: 500vh;
+  margin-top: 10.4rem;
+  position: absolute;
+  margin-left: 20vw;
+}
+
+.elements {
+  position: relative;
+  padding-right: 1.3rem
+
+}
+
+.s-media {
   display: block;
+  position: absolute;
+  top: 840px;
 }
 
-.centre {
-  text-align: center;
-}
 
-
-/* TYPOGRAPHY STYLES*/
 .mega {
   font-size: 1.2500rem;
   line-height: 1.7500rem;
@@ -93,82 +94,202 @@ h6, .kilo, input, textarea {
   font-family: 'Gentium Book Basic', serif;'
 }
 
-
-/* HEADER */
-.logo {
-  padding-top: 2.6rem;
-  z-index: 10;
-  display: inline-block;
-  position: fixed;
-  padding-right: 12rem;
-  z-index: 10;
+h1 {
+  margin: 0;
 }
 
-.navigation-column {
+h2 a {
+  margin-right: 1.3rem;
+}
+
+
+p {
+  margin: 0;
+}
+
+.grey-2 a {
+  color: #857C7E;
+}
+
+
+footer {
+  margin-top: 10.4rem;
+  margin-bottom: 1.3rem;
+}
+
+
+.gutter-right {
+  padding-right: 3.6rem;
+}
+
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.unit-select {
+  width: 65vw;
+}
+
+.unit {
+  width: 30vw;
+}
+
+h1 a:hover {
+  outline: none;
+  text-decoration: none;
+}
+
+a:hover {
+  outline: none;
+  text-decoration: underline;
+}
+
+.centre {
+  text-align: center;
+}
+
+.logo {
+  padding-top: 2.6rem;
+  position: fixed;
+  z-index: 10;
+  display: inline-block;
+  vertical-align: baseline;
+  text-align: center;
+}
+
+.navigation-bottom {
   z-index: 9;
-  top: 12vh;
+  bottom: 5vh;
+  position: fixed;
+}
+
+.navigation-top {
+  z-index: 9;
+  bottom: 83vh;
   position: fixed;
   display: block;
   width: 50px;
 }
 
-/* CONTENT*/
-
-.index-items {
-  padding-top: 2.6rem;
-  vertical-align: baseline;
-  position: fixed;
-  top: 20vh;
+.push-7 {
+  margin-bottom: 5.2rem;
 }
 
-.index ul {
-  padding-left: 0;
+.margin-0 {
+  margin: 0;
 }
 
-.index-image {
-  padding-left: 20vw;
-  max-width: 60vw;
-  padding-top: 24vh;
-}
-
-.caption {
+.work-info {
   margin-bottom: 1.3rem;
   padding-top: .65rem;
 }
 
-.content-column {
+.work-info-page {
+  padding-top: 2.6rem;
+  width: 65vw;
+  text-align: center;
+}
+
+
+#header {
+  width: 90px;
+}
+
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.hello {
+  margin-left: 11.7rem;
+}
+
+h2 a {
+  left: 50%;
+}
+
+.hello-container {
+  padding-left: 10.4rem;
+  padding-right: 10.4rem;
+  width: 50%;
+}
+
+.portrait-container {
+  margin-top: 6.5rem;
+}
+
+
+.pad-top, .pad-t {
+  padding-top: 1.3rem;
+}
+
+.pad-top-1-4, .pad-t-1-4 {
+  padding-top: 0.3250rem;
+}
+
+.push-down {
+  padding-top: 11.3rem;
+}
+
+@media only screen and (min-width: 17em) {
+
+    html {
+      font-size: 110%;
+      }
+    }
+
+  .img-flex-1-2 {
+    width: 100vw;
+  }
+
+  .portrait-container {
+    margin-top: 6.5rem;
+    padding-left: 1.3rem;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+.img-flex-1-2 {
+  width: 70vw;
+  display: block;
+  }
+
+}
+
+@media only screen and (min-width: 51em) {
+
+.img-flex-1-2 {
+  width: 65vw;
+  display: block;
+  }
+
+}
+
+
+@media only screen and (min-width: 55em) {
+
+.img-flex-1-2 {
   width: 50vw;
-  height: 45vh;
-  margin-top: 10.4rem;
-  position: absolute;
-  margin-left: 20vw;
-}
-
-.push-b7 {
-  margin-bottom: 5.2rem;
-}
-
-.content {
-  position: relative;
-  padding-right: 1.3rem
+  display: block;
+  }
 
 }
 
 
 
+@media only screen and (min-width: 66em) {
 
+.img-flex-1-2 {
+  width: 35vw;
+  display: block;
+  }
 
-/* ABOUT */
-.info {
-  margin-top: 2.6rem;
-  max-width: 34vw;
-}
-
-
-/* PHOTOGRAPHY*/
-
-.image {
-  width: 45vw;
-  margin-top: 5.9rem;
-  margin-left: 20vw;
 }
